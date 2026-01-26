@@ -187,7 +187,9 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black">
-        <p className="mb-6 opacity-40">© 2026 real homies club • established for the real ones</p>
+        <p className="mb-6 opacity-40">© 2026 real homies club • established for the real ones
+          contact: <a href="mailto:hello@rea1homies.com" className="hover:text-orange-600 transition-colors">hello@rea1homies.com</a>
+        </p>
         <div className="flex justify-center gap-12">
           <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
           <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
