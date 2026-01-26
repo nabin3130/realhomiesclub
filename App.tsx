@@ -167,9 +167,14 @@ const App: React.FC = () => {
                  <p className="font-black mb-2 text-white text-2xl">real ideas only.</p>
                  <p>what do you want to work on together? we are here for it.</p>
                </div>
-               <button className="bg-[#F3E9B4] text-orange-600 px-10 py-5 rounded-[1.5rem] font-black lowercase text-base hover:scale-105 transition-all shadow-xl active:scale-95">
+               <a 
+                 href="mailto:hello@rea1homies.com"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="bg-[#F3E9B4] text-orange-600 px-10 py-5 rounded-[1.5rem] font-black lowercase text-base hover:scale-105 transition-all shadow-xl active:scale-95 inline-block no-underline text-center"
+               >
                  get in touch
-               </button>
+               </a>
              </div>
            </section>
         </div>
