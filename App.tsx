@@ -2,7 +2,7 @@
 import React from 'react';
 import { COLORS } from './constants';
 import { ProfileData } from './types';
-import SocialCard from './components/SocialCard';
+import SocialCard from './components/SocialCard.tsx';
 
 const MOCK_PROFILE: ProfileData = {
   name: "real homies club",
