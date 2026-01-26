@@ -185,11 +185,17 @@ const App: React.FC = () => {
         <FullWidthMarquee rotate="rotate-[1deg]" speed="30s" />
       </div>
 
-      {/* Footer */}
+     {/* Footer */}
       <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black">
-        <p className="mb-6 opacity-40">© 2026 real homies club • established for the real ones
+        {/* 저작권 문구와 아래 요소 사이 간격(mb-4) 추가 */}
+        <p className="mb-4 opacity-40">© 2026 real homies club • established for the real ones</p>
+        
+        {/* 이메일 주소와 아래 버튼 사이 간격(mb-10) 추가 */}
+        <p className="mb-10 opacity-80 font-bold">
           contact: <a href="mailto:hello@rea1homies.com" className="hover:text-orange-600 transition-colors">hello@rea1homies.com</a>
         </p>
+
+        {/* Privacy & Terms 버튼 그룹 */}
         <div className="flex justify-center gap-12">
           <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
           <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
