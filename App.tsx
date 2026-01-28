@@ -41,14 +41,6 @@ const MOCK_PROFILE: ProfileData = {
       icon: '',
       color: '#000000'
     },
-    {
-      id: '4',
-      platform: 'Telegram',
-      label: 'join the inner circle',
-      url: 'https://t.me/realhomiesclub',
-      icon: '',
-      color: '#229ED9'
-    }
   ]
 };
 
