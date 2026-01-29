@@ -178,35 +178,37 @@ const App: React.FC = () => {
       </div>
 
 {/* Footer */}
-      <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black font-sans">
-        
-        {/* 1. 저작권 문구 */}
-        <p className="mb-4 opacity-40">© 2026 real homies club • established for the real ones</p>
-        
-        {/* 2. 이메일 주소 */}
-        <p className="mb-10 opacity-80 font-bold">
-          contact: <a href="mailto:hello@rea1homies.com" className="hover:text-orange-600 transition-colors">hello@rea1homies.com</a>
-        </p>
+<footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black font-sans">
+  
+  {/* 1. 저작권 문구 */}
+  <p className="mb-4 opacity-40">© 2026 real homies club • established for the real ones</p>
+  
+  {/* 2. 이메일 주소 */}
+  <p className="mb-10 opacity-80 font-bold">
+    contact: <a href="mailto:hello@rea1homies.com" className="hover:text-orange-600 transition-colors">hello@rea1homies.com</a>
+  </p>
 
-        {/* 3. 하단 링크 그룹: Privacy - Logo - Terms 한 줄 배치 */}
-        <div className="flex justify-center items-center gap-8 md:gap-12">
-          {/* Privacy */}
-          <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
+  {/* 3. 하단 링크 그룹: Privacy - Logo - Terms 한 줄 배치 */}
+  <div className="flex justify-center items-center gap-8 md:gap-12">
+    {/* Privacy */}
+    <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
 
-          {/* Logo (박스 제거 버전) */}
-          <a 
-            href="https://coil-sign-97412531.figma.site/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="group flex flex-col items-center transition-all"
-          >
-            <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-[0.2em]">Press Kit</span>
-            <span className="text-[10px] text-gray-400 group-hover:text-orange-600 transition-colors">
-              Logo
-            </span>
-          </a>
+    {/* Logo (순수 텍스트 버전) */}
+    <a 
+      href="https://coil-sign-97412531.figma.site/" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="group flex flex-col items-center justify-center transition-all bg-transparent border-none p-0"
+    >
+      <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-[0.2em]">
+        Press Kit
+      </span>
+      <span className="text-[10px] text-gray-400 group-hover:text-orange-600 transition-colors">
+        Logo
+      </span>
+    </a>
 
-          {/* Terms */}
-          <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
-        </div>
-      </footer>
+    {/* Terms */}
+    <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
+  </div>
+</footer>
