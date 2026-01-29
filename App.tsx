@@ -178,7 +178,7 @@ const App: React.FC = () => {
       </div>
 
 {/* Footer */}
-      <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black">
+      <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black font-sans">
         
         {/* 1. 저작권 문구 */}
         <p className="mb-4 opacity-40">© 2026 real homies club • established for the real ones</p>
@@ -193,17 +193,17 @@ const App: React.FC = () => {
           {/* Privacy */}
           <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
 
-          {/* Logo (이제 중간에 위치함) */}
+          {/* Logo (박스 제거 버전) */}
           <a 
             href="https://coil-sign-97412531.figma.site/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group flex flex-col items-center transition-all"
           >
-            <span className="text-[7px] mb-1 opacity-40 group-hover:text-orange-600 transition-colors tracking-widest">Press Kit</span>
-            <div className="text-[12px] border border-gray-800 px-4 py-1 group-hover:border-orange-600 group-hover:text-orange-600 transition-all">
+            <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-[0.2em]">Press Kit</span>
+            <span className="text-[10px] text-gray-400 group-hover:text-orange-600 transition-colors">
               Logo
-            </div>
+            </span>
           </a>
 
           {/* Terms */}
