@@ -196,10 +196,11 @@ const App: React.FC = () => {
             href="https://coil-sign-97412531.figma.site/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group flex flex-col items-center transition-all"
+            className="group transition-all"
           >
-            <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-widest">Press Kit</span>
-            <span className="text-[10px] group-hover:text-orange-600 transition-colors">Logo</span>
+            <span className="text-[10px] group-hover:text-orange-600 transition-colors">
+              Logo
+            </span>
           </a>
 
           <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
