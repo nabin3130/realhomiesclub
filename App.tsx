@@ -179,6 +179,19 @@ const App: React.FC = () => {
 
      {/* Footer */}
       <footer className="mt-24 pb-12 text-center text-gray-400 text-[10px] uppercase tracking-[0.4em] font-black">
+        <div className="mb-12">
+          <a 
+            href="https://coil-sign-97412531.figma.site/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block hover:text-orange-600 transition-colors"
+          >
+            <span className="block mb-2 text-[8px] opacity-50 tracking-widest text-white">Press Kit</span>
+            <div className="text-[14px] border border-gray-800 px-6 py-2 hover:border-orange-600">
+              Logo
+            </div>
+          </a>
+        </div>
         {/* 저작권 문구와 아래 요소 사이 간격(mb-4) 추가 */}
         <p className="mb-4 opacity-40">© 2026 real homies club • established for the real ones</p>
         
