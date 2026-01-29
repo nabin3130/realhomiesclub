@@ -204,9 +204,9 @@ const App: React.FC = () => {
 
           <a href="#" className="hover:text-orange-600 transition-colors">terms</a>
         </div>
-      </footer> {/* 1. footer를 먼저 닫습니다 */}
-    </div> {/* 2. App 컴포넌트의 최외각 div를 닫습니다 */}
-  ); // 3. return 문을 닫습니다
-}; // 4. App 함수를 닫습니다
+      </footer>
+    </div>
+  );
+};
 
 export default App;
