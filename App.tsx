@@ -188,22 +188,20 @@ const App: React.FC = () => {
     contact: <a href="mailto:hello@rea1homies.com" className="hover:text-orange-600 transition-colors">hello@rea1homies.com</a>
   </p>
 
-  {/* 3. 하단 링크 그룹: Privacy - Logo - Terms 한 줄 배치 */}
+  {/* 3. 하단 링크 그룹: 박스 없이 텍스트만 나열 */}
   <div className="flex justify-center items-center gap-8 md:gap-12">
     {/* Privacy */}
     <a href="#" className="hover:text-orange-600 transition-colors">privacy</a>
 
-    {/* Logo (순수 텍스트 버전) */}
+    {/* Logo (박스 관련 클래스 border, px, py를 모두 제거했습니다) */}
     <a 
       href="https://coil-sign-97412531.figma.site/" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="group flex flex-col items-center justify-center transition-all bg-transparent border-none p-0"
+      className="group flex flex-col items-center transition-all"
     >
-      <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-[0.2em]">
-        Press Kit
-      </span>
-      <span className="text-[10px] text-gray-400 group-hover:text-orange-600 transition-colors">
+      <span className="text-[7px] mb-0.5 opacity-30 group-hover:text-orange-600 transition-colors tracking-widest">Press Kit</span>
+      <span className="text-[10px] group-hover:text-orange-600 transition-colors">
         Logo
       </span>
     </a>
